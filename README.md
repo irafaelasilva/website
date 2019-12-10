@@ -1,6 +1,6 @@
 ## My Personal Website
 
-This website was built with gatsby and styled-components and deployed at Netlify
+This website was built with gatsby, styled-components and deployed at Netlify
 
 ### Usage
 

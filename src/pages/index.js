@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import Layout from "../components/Layout/Layout"
+import Layout from "../components/Layout"
 
 const Container = styled.section`
   display: flex;
@@ -35,7 +35,7 @@ const IndexPage = () => {
     <Layout>
       <Container>
         <Title>
-          Hey 👋, my name is <Name>Rafaela Silva</Name>
+          Hey 🙋, my name is <Name>Rafaela Silva</Name>
         </Title>
         <br />
         <SubTitle>
