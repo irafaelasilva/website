@@ -1,6 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 
+import Layout from "../components/Layout/Layout"
+
 const Container = styled.section`
   display: flex;
   flex-direction: column;
@@ -30,24 +32,26 @@ const Company = styled.a`
 
 const IndexPage = () => {
   return (
-    <Container>
-      <Title>
-        Hey <span>👋</span>, my name is <Name>Rafaela</Name>
-      </Title>
-      <br />
-      <SubTitle>
-        I'm a Software Enginner, just finished a bootcamp at{" "}
-        <Company
-          href="https://makers.tech/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Makers Academy
-        </Company>
-      </SubTitle>
-      <br />
-      <SubTitle>🇧🇷🇬🇧</SubTitle>
-    </Container>
+    <Layout>
+      <Container>
+        <Title>
+          Hey 👋, my name is <Name>Rafaela</Name>
+        </Title>
+        <br />
+        <SubTitle>
+          I'm a Junior Software Enginner and just finished{" "}
+          <Company
+            href="https://makers.tech/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Makers Academy
+          </Company>
+        </SubTitle>
+        <br />
+        <SubTitle>🇧🇷🇬🇧</SubTitle>
+      </Container>
+    </Layout>
   )
 }
 
