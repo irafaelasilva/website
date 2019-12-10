@@ -35,7 +35,7 @@ const IndexPage = () => {
     <Layout>
       <Container>
         <Title>
-          Hey 👋, my name is <Name>Rafaela</Name>
+          Hey 👋, my name is <Name>Rafaela Silva</Name>
         </Title>
         <br />
         <SubTitle>
