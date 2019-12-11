@@ -1,7 +1,8 @@
 import React from "react"
 import styled from "styled-components"
-
 import Layout from "../components/Layout"
+import Navigation from "../components/Navigation"
+import Link from "../components/Link"
 
 const Container = styled.section`
   display: flex;
@@ -50,6 +51,7 @@ const IndexPage = () => {
         </SubTitle>
         <br />
         <SubTitle>🇧🇷🇬🇧</SubTitle>
+        <Navigation />
       </Container>
     </Layout>
   )
