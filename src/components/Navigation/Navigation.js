@@ -66,9 +66,6 @@ const Navigation = () => {
         <ListItem>
           <CustomLink title="Blog" link={site.siteMetadata.social.blog} />
         </ListItem>
-        <ListItem>
-          <CustomLink title="Resume" link={withPrefix("/resume.pdf")} />
-        </ListItem>
       </List>
     </Nav>
   )

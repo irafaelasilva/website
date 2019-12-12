@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Rafaela Silva`,
     description: `Always a lerner!`,
-    siteUrl: `https://rafaelalsilva.com`,
+    siteUrl: `https://github.com/irafaelasilva`,
     social: {
       twitter: `https://twitter.com/Rafa_ela3`,
       github: `https://github.com/irafaelasilva`,
