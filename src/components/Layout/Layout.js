@@ -4,7 +4,7 @@ import { ThemeProvider, createGlobalStyle } from "styled-components"
 
 const theme = {
   colors: {
-    primary: "#806699",
+    primary: "#554e63",
     secondary: "#ffffff",
     accent: "#f7f7f7",
   },

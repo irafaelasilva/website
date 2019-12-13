@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Rafaela Silva`,
-    description: `Always a lerner!`,
-    siteUrl: `https://github.com/irafaelasilva`,
+    description: `Always a learner!`,
+    siteUrl: `https://rafaelasilva.netlify.com`,
     social: {
       twitter: `https://twitter.com/Rafa_ela3`,
       github: `https://github.com/irafaelasilva`,
@@ -16,7 +16,7 @@ module.exports = {
         name: `Rafaela`,
         short_name: `Rafaela`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#554e63`,
         theme_color: `#1a1a1a`,
         display: `standalone`,
       },
