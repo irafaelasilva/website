@@ -1,12 +1,8 @@
 ## My Personal Website
 
-This website was built with gatsby, styled-components and deployed at Netlify
-
-### Usage
-
-```sh
-npm run develop
-```
+The website is just a way to conect all my social profile in a single page.<br />
+It was built with gatsby, styled-components and deployed at Netlify.<br />
+Visit the site - [click here](https://rafaelasilva.netlify.com/)
 
 ### 📝 License
 
