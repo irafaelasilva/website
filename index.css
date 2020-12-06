@@ -1,0 +1,105 @@
+/*CSS reset*/
+body,
+div,
+h1,
+a,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-family: "Philosopher", Arial, Helvetica, sans-serif;
+}
+
+/*Background*/
+
+.container {
+  height: 100vh;
+  position: relative;
+  display: block;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-position: top center;
+  opacity: 0.55;
+}
+
+/*Header-NavBar*/
+
+.menu-logo {
+  position: relative;
+  width: 245px;
+  padding: 10px;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav a {
+  font-size: 1.5rem;
+  display: block;
+  padding: 30px;
+  color: #e46c9c;
+}
+
+/* About-me */
+.about {
+  display: flex;
+  /* flex-direction: column; */
+  position: relative;
+  margin-top: 200px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pic-wrapper {
+  max-width: 500px;
+  padding: 1rem;
+  position: relative;
+  padding: 3px;
+}
+
+.pic-wrapper-module {
+  background: #f8f4f6;
+  padding: 0.3rem;
+  border-radius: 15px 50px 30px;
+}
+
+.about h1 {
+  font-size: 1.8rem;
+  margin-left: 60px;
+  color: #e46c9c;
+}
