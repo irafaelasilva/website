@@ -3,7 +3,7 @@ import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
 
 const theme = {
   colors: {
-    primary: "#5573ac",
+    primary: "#0f0f13",
     secondary: "#ffffff",
     accent: "#f7f7f7",
   },
