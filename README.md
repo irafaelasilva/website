@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> Here is just a place to conect all my social profiles.
+> Here is just a place to connect all my social profiles.
 
 ## Install
 
