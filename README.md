@@ -19,12 +19,6 @@ yarn
 ## Usage
 
 ```sh
-yarn develop
+yarn dev
 ```
 
-## Build
-
-```sh
-npm run dev	yarn start
-
-```
