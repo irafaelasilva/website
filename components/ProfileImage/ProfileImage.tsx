@@ -8,7 +8,7 @@ const StyledImage = styled.img`
 
 const ProfileImage: FC = () => {
   return (
-    <StyledImage src="/profile.jpg" width="230" height="280" alt="profile" />
+    <StyledImage src="/profile.jpg" width="160" height="190" alt="profile" />
   );
 };
 
