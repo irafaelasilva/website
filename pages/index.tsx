@@ -64,7 +64,7 @@ const Index: FC = () => (
         </Title>
         <br />
         <SubTitle>
-          I'm a Junior Software Engineer at{" "}
+          I'm a Software Engineer at{" "}
           <Company
             href="https://www.goodlord.co/"
             target="_blank"
